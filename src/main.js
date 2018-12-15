@@ -4,6 +4,14 @@ import FastClick from 'fastclick'
 
 import Vum from './vum.js'
 
+// 全局引入
+import { Page as MyPage } from './components/page'
+import { Footer, Item } from './components/footer'
+
+Vue.component('page', MyPage)
+Vue.component('page-footer', Footer)
+Vue.component('footer-item', Item)
+
 // demos
 import Index from './demos/Index'
 import Page from './demos/Page'

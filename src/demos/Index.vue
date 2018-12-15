@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import Page from '../components/page'
-import { Footer, Item } from '../components/footer'
+// import Page from '../components/page'
+// import { Footer, Item } from '../components/footer'
 import Home from './Home'
 import Search from './Search'
 import Noti from './Noti'
@@ -35,9 +35,9 @@ import About from './About'
 
 export default {
   components: {
-    Page,
-    'page-footer': Footer,
-    'footer-item': Item,
+    // Page,
+    // 'page-footer': Footer,
+    // 'footer-item': Item,
     'home': Home,
     'search': Search,
     'noti': Noti,
